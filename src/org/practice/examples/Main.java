@@ -1,8 +1,11 @@
 package org.practice.examples;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException, IOException {
 
 
 
@@ -21,6 +24,10 @@ public class Main {
 */
        Class2 c2 = new Class2();
         //c2.setDateFromString();
-        c2.playWithDate();
+        //c2.playWithDate();
+        //c2.calendar();
+        //c2.fileOpen();
+        c2.fileCreate("new.txt");
+
     }
 }
